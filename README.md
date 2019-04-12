@@ -7,13 +7,13 @@ This version is also compatible in node where `window` is not defined.
 ## install
 
 ```
-npm install @fseehaewer/requestidlecallback
+npm install @fseehawer/requestidlecallback
 ```
 
 ## example
 
 ```javascript
-import requestIdleCallback from '@fseehaewer/requestidlecallback'
+import requestIdleCallback from '@fseehawer/requestidlecallback'
 
 requestIdleCallback(() => {
   // your code
@@ -23,7 +23,7 @@ requestIdleCallback(() => {
 Or node-style:
 
 ```javascript
-var requestIdleCallback = require('@fseehaewer/requestidlecallback')
+var requestIdleCallback = require('@fseehawer/requestidlecallback')
 
 requestIdleCallback(function () {
   // your code
@@ -33,7 +33,7 @@ requestIdleCallback(function () {
 ## for cancelling?
 
 ```javascript
-import requestIdleCallback, { cancelIdleCallback } from '@fseehaewer/requestidlecallback'
+import requestIdleCallback, { cancelIdleCallback } from '@fseehawer/requestidlecallback'
 
 // your code
 const id = requestIdleCallback(doSomething)
@@ -45,7 +45,7 @@ cancelIdleCallback(id)
 Or node-style:
 
 ```javascript
-var requestIdleCallback = require('@fseehaewer/requestidlecallback')
+var requestIdleCallback = require('@fseehawer/requestidlecallback')
 var cancel = requestIdleCallback.cancelIdleCallback
 
 // your code
