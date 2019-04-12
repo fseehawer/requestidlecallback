@@ -1,8 +1,8 @@
-# @fseehaewer/requestidlecallback
+# Simple requestIdleCallback polyfill
 
 ![](https://img.shields.io/badge/version-1.0.0-green.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-I published this version to be compatible with node environment where `window` is not defined.
+I published this version to be compatible with the node environment where `window` is not defined.
 
 ## install
 
