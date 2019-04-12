@@ -1,7 +1,7 @@
 {
-  "name": "@fseehaewer/requestidlecallback",
-  "description": "requestIdleCallback polyfill",
-  "version": "1.0.0",
+  "name": "@fseehawer/requestidlecallback",
+  "description": "Simple requestIdleCallback polyfill is also compatible in node where window is not defined.",
+  "version": "1.0.1",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
   "keywords": [
     "requestIdleCallback",
