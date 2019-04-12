@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/version-1.0.0-green.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-I published this version to be compatible with the node environment where `window` is not defined.
+This version is also compatible in node where `window` is not defined.
 
 ## install
 
