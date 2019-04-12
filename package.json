@@ -1,5 +1,5 @@
 {
-  "name": "fio-requestidlecallback",
+  "name": "@fseehaewr/requestidlecallback",
   "description": "requestIdleCallback polyfill",
   "version": "1.0.0",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",

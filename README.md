@@ -1,4 +1,4 @@
-# fio-requestidlecallback
+# @fseehaewr/requestidlecallback
 
 ![](https://img.shields.io/badge/version-1.0.0-green.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -7,13 +7,13 @@ I published this version to be compatible with node environment where `window` i
 ## install
 
 ```
-npm install fio-requestidlecallback
+npm install @fseehaewr/requestidlecallback
 ```
 
 ## example
 
 ```javascript
-import requestIdleCallback from 'fio-requestidlecallback'
+import requestIdleCallback from '@fseehaewr/requestidlecallback'
 
 requestIdleCallback(() => {
   // your code
@@ -23,7 +23,7 @@ requestIdleCallback(() => {
 Or node-style:
 
 ```javascript
-var requestIdleCallback = require('fio-requestidlecallback')
+var requestIdleCallback = require('@fseehaewr/requestidlecallback')
 
 requestIdleCallback(function () {
   // your code
@@ -33,7 +33,7 @@ requestIdleCallback(function () {
 ## for cancelling?
 
 ```javascript
-import requestIdleCallback, { cancelIdleCallback } from 'fio-requestidlecallback'
+import requestIdleCallback, { cancelIdleCallback } from '@fseehaewr/requestidlecallback'
 
 // your code
 const id = requestIdleCallback(doSomething)
@@ -45,7 +45,7 @@ cancelIdleCallback(id)
 Or node-style:
 
 ```javascript
-var requestIdleCallback = require('fio-requestidlecallback')
+var requestIdleCallback = require('@fseehaewr/requestidlecallback')
 var cancel = requestIdleCallback.cancelIdleCallback
 
 // your code
