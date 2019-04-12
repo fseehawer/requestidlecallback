@@ -1,0 +1,23 @@
+{
+  "name": "fio-requestidlecallback",
+  "description": "requestIdleCallback polyfill",
+  "version": "1.0.6",
+  "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
+  "keywords": [
+    "requestIdleCallback",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fseehawer/fio-requestidlecallback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fseehawer/fio-requestidlecallback/issues"
+  },
+  "homepage": "https://github.com/fseehawer/fio-requestidlecallback#readme"
+}
