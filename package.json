@@ -1,7 +1,7 @@
 {
   "name": "fio-requestidlecallback",
   "description": "requestIdleCallback polyfill",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
   "keywords": [
     "requestIdleCallback",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fseehawer/fio-requestidlecallback.git"
+    "url": "git+https://github.com/fseehawer/requestidlecallback.git"
   },
   "bugs": {
-    "url": "https://github.com/fseehawer/fio-requestidlecallback/issues"
+    "url": "https://github.com/fseehawer/requestidlecallback/issues"
   },
-  "homepage": "https://github.com/fseehawer/fio-requestidlecallback#readme"
+  "homepage": "https://github.com/fseehawer/requestidlecallback#readme"
 }
