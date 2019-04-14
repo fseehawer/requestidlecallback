@@ -1,11 +1,13 @@
 {
   "name": "@fseehawer/requestidlecallback",
-  "description": "Simple requestIdleCallback polyfill is also compatible in node where window is not defined.",
-  "version": "1.0.1",
+  "description": "This requestIdleCallback polyfill doesn't use the window object to detect if the browser supports the feature, so it works well with SSR.",
+  "version": "1.0.2",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
   "keywords": [
     "requestIdleCallback",
-    "polyfill"
+    "polyfill",
+    "shim",
+    "SSR"
   ],
   "license": "MIT",
   "main": "index.js",
