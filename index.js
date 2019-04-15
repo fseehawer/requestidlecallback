@@ -1,5 +1,5 @@
-var fallback = function (cb) {
-    var start = Date.now()
+const fallback = function (cb) {
+    const start = Date.now();
     return setTimeout(function () {
         cb({
             didTimeout: false,
@@ -8,9 +8,9 @@ var fallback = function (cb) {
             }
         })
     }, 1)
-}
+};
 
-var isSupported = (typeof requestIdleCallback !== 'undefined')
+const isSupported = (typeof requestIdleCallback !== 'undefined');
 
-module.exports = isSupported ? requestIdleCallback : fallback
-module.exports.cancelIdleCallback = isSupported ? cancelIdleCallback : clearTimeout
+module.exports = isSupported ? requestIdleCallback : fallback;
+module.exports.cancelIdleCallback = isSupported ? cancelIdleCallback : clearTimeout;
