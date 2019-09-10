@@ -1,13 +1,8 @@
 # requestIdleCallback polyfill
 
-![](https://img.shields.io/badge/version-1.0.3-green.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
+![](https://img.shields.io/badge/version-1.0.6-green.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Key features of this requestIdleCallback polyfill:
-<ul>
-    <li>does not use the window object to detect if the feature is supported in the browser</li>
-    <li>server side rendering (SSR) safe</li>
-    <li>falls back to a simple timeout implementation</li>
-</ul>
+The key features of this requestIdleCallback polyfill is that it does not use the window object to detect if the feature is supported in the browser. So it will not cause any issues with SSR and falls back to a simple timeout if requestIdleCallback is not supported. 
 
 ## install
 

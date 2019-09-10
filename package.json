@@ -1,7 +1,7 @@
 {
   "name": "@fseehawer/requestidlecallback",
-  "description": "This requestIdleCallback polyfill can be safely used is SSR safe because it does not use the window object to detect if the browser supports the feature.",
-  "version": "1.0.3",
+  "description": "The key features of this requestIdleCallback polyfill is that it does not use the window object to detect if the feature is supported in the browser. So it will not cause any issues with SSR and falls back to a simple timeout if requestIdleCallback is not supported.",
+  "version": "1.0.5",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
   "keywords": [
     "requestIdleCallback",
