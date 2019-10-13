@@ -1,7 +1,7 @@
 {
   "name": "@fseehawer/requestidlecallback",
-  "description": "The key features of this requestIdleCallback polyfill is that it does not use the window object to detect if the feature is supported in the browser. So it will not cause any issues with SSR and falls back to a simple timeout if requestIdleCallback is not supported.",
-  "version": "1.0.6",
+  "description": "This requestIdleCallback polyfill doesn't use the window object to detect if the feature is supported in the browser and falls back to a simple timeout if the feature isn't supported.",
+  "version": "1.0.7",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
   "keywords": [
     "requestIdleCallback",
