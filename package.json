@@ -1,20 +1,20 @@
 {
   "name": "@fseehawer/requestidlecallback",
   "description": "This requestIdleCallback polyfill doesn't use the window object to detect if the feature is supported in the browser and falls back to a simple timeout if the feature isn't supported.",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "author": "Fidel Seehawer <fidel@fio.ai> (fio.ai)",
   "keywords": [
     "requestIdleCallback",
     "polyfill",
     "shim",
-    "SSR",
     "node",
     "window"
   ],
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:public": "npm publish --access public"
   },
   "repository": {
     "type": "git",
